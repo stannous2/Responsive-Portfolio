@@ -9,26 +9,19 @@
     min-height: 100%;
     position: fixed;
 }
-.photo {
-    width:  300px;
-    height: 200px;
-}
 
 .navbar {
     min-width: 100%;
     background-color: #ffffff;
     margin: auto;
     padding-right: 0px;
-    display: flex;
-}
-.toplink {
-    float: right;
 }
 .row {
     width: 960px;
+    margin-left: 5%;
     border-color: #dddddd;
-    display: flex;
-    margin-left: 0%;
+    margin-left: 15px;
+    margin: auto;
 }
 
 .col-sm-2 {
@@ -36,8 +29,6 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 .nav-link {
     color: #777777;
 }
@@ -48,7 +39,7 @@
     max-width: 960px;
     margin: auto;
     padding-right: 2%;
-    padding-bottom: 12%;
+    padding-bottom: 2%;
     padding-left: 2%
 }
 .title {
@@ -78,44 +69,12 @@
     left: 0;
     text-align: center;
 }
-@media only screen and (max-width: 980px) {
-    .section {
-        width: 70%;
-        margin-left: 0;
-    }
-    .photo {
-        width: 270px;
-        height: 170px;
-    }
+.image {
+    width: 100%;
+    position: relative;
 }
-@media only screen and (max-width: 768px) {
-    .section {
-        width: 100%;
-        margin-left: 0;
-    }
-    .toplink {
-        float: right;
-    }
-
-}
-@media only screen and (max-width: 640px) {
-    .section {
-        width: 100%;
-        margin-left: 0;
-    }
-    .row {
-        flex-direction: column;
-        margin-left: -3%;
-    }
-    .custom {
-        max-width: 100%;
-        margin: 0;
-    }
-    .col-sm-10 {
-        max-width: 100%;
-    }
-    .toplink {
-        float: none;
-        justify-content: center;
-    }
+.h4 {
+    position: absolute;
+    width: 100%;
+    left: 0;
 }
