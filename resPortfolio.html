@@ -4,58 +4,86 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Porfolio</title>
+    <title>Porfolio | Tin Tran</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css">
+    <link href="stylesheet.css" media="screen" rel="stylesheet" type="text/css">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar nav color: white">
-        <div class="row">
-            <div class="col-sm-2 custom">
-                <a class="navbar-brand text-white" href="#">Tin Tran</a>
-            </div>
-            <div class="col-sm-10">
-                <ul class="nav toplink">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Porfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <header id="topbar">
+        <div class="container">
+            <a href="resIndex.html" id="logo">Tin Tran</a>
+            <nav>
+                <a href="resIndex.html">About</a>
+                <a href="resPortfolio.html">Porfolio</a>
+                <a href="resContact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
-    <div class="container">
+    </header>
 
-        <div class="section">
-            <div class="title">
-                <h4 class="col-sm-3">Portfolio</h4>
-                <hr class="line">
+    <div id="main-container" class="container">
+        <div class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="work">
+                <img src="./images/Guess Word-680x480.png" alt="Word Guess" />
+                <h3>
+                    <a href="https://stannous2.github.io/Word-Guess-Game/">Word Guess</a>
+                </h3>
             </div>
-            <div class="media col-sm-9">
-                <img class="mr-3 photo" src="./images/dongsoncave.jpeg" alt=""/>
-                <img class="mr-3 photo" src="./images/fishman.jpeg" alt=""/>
+            <div class="work">
+                <img src="./images/RPS-640-480.png" alt="RPG Game" />
+                <h3> 
+                    <a href="https://stannous2.github.io/Word-Guess-Game/">RPG Game</a>
+                </h3>
             </div>
-            <div class="media mt-3 col-sm-9">
-                <img class="mr-3 photo" src="./images/lonelyhouse.jpeg" alt=""/>
-                <img class="mr-3 photo" src="./images/monkey.jpeg" alt=""/>
+            <div class="work">
+                <img src="./images/ThatTriviaGame-640-480-2.png" alt="Trivia Game" />
+                <h3>
+                    <a href="">Trivia Game</a>
+                </h3>
             </div>
-            <div class="media mt-3 col-sm-9">
-                <img class="mr-3 photo" src="./images/shark.jpeg" alt=""/>
-                
+            <div class="work">
+                <img src="./images/psychic game-640-480.jpeg" alt="Psychic Game" />
+                <h3>
+                    <a href="">Psychic Game</a>
+                </h3>
+            </div>
+            <div class="work">
+                <img src="./images/zelda-giphy.gif" alt="Giphy" />
+                <h3>
+                    <a href="https://stannous2.github.io/GiphyAPI/">Giphy</a>
+                </h3>
+            </div>
+            <div class="work">
+                <img src="./images/multi-player-RPS-640x480.png" alt="Multiplayer RPS Game" />
+                <h3>
+                   <a href="https://stannous2.github.io/RPS-Multiplayer/">Multiplayer RPS Game</a> 
+                </h3>
+            </div>
+            <div class="work">
+                <img src="./images/Collaboration-640x480.png" alt="Project1" />
+                <h3>
+                    <a href="">Project1</a>
+                </h3>
+            </div>
+            <div class="work">
+                <img src="./images/crystal.jpg" alt="Crystal Collectors" />
+                <h3>
+                    <a href="">Crystal Collectors</a>
+                </h3>
             </div>
         </div>
     </div>
 
-    <span class="bottomrow"> © Copyright</span>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>
